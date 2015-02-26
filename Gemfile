@@ -32,7 +32,13 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+#wayyy better than WeBrick
+gem 'thin'
+
 group :development, :test do
+	#Simma DOWN NAH!
+	gem 'quiet_assets'
+	
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 
