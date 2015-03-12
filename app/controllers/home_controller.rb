@@ -9,7 +9,7 @@ class HomeController < ApplicationController
   		when 16..19
   		"Good Evening!"
   		when 20..23, 0..4
-  		"Good Night!"
+  		"Good Night! <i class='fa fa-moon-o'></i>".html_safe
   		end
 
 	end

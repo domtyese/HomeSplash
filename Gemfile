@@ -38,6 +38,9 @@ gem 'thin'
 #Fanstatic formating 
 gem 'stamp'
 
+# Adding some awesome fonts
+gem "font-awesome-rails"
+
 group :development, :test do
 	#Simma DOWN NAH!
 	gem 'quiet_assets'

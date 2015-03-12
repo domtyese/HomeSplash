@@ -9,15 +9,15 @@
  * compiled file so the styles you add here take precedence over styles defined in any styles
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
- *
+ *= require font-awesome
  *= require_tree .
  *= require_self
  */
 
 html {
-font-family: Cursive;
+font-family: Arial, Verdana;
 font-size: 30px;
-background-color: #EA7;
+background-color: rgb(13, 79, 84);
 }
 
 body {
@@ -35,4 +35,9 @@ text-align: center;
 height: 2em;
 padding-top: 1em;
 color: white;
+}
+
+div#footer a {
+  color: white;
+  text-decoration: none;
 }
