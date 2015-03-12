@@ -35,6 +35,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #wayyy better than WeBrick
 gem 'thin'
 
+#Fanstatic formating 
+gem 'stamp'
+
 group :development, :test do
 	#Simma DOWN NAH!
 	gem 'quiet_assets'
