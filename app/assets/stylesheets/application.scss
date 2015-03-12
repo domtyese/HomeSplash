@@ -16,13 +16,24 @@
 
 html {
 font-family: Arial, Verdana;
-font-size: 30px;
-background-color: rgb(13, 79, 84);
+font-size: 20px;
+color: white
 }
 
 body {
+	background: image-url("pretty.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+
 	padding: 0;
 	margin: 0;
+}
+
+.shadowed {
+	text-shadow: 2px 2px 0 #000;
 }
 
 
