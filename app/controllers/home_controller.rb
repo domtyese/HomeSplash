@@ -12,6 +12,7 @@ class HomeController < ApplicationController
   		"Good Night! <i class='fa fa-moon-o'></i>".html_safe
   		end
 
-	end
+    @quip = Quote.all.sample.quip
 
+	end
 end
