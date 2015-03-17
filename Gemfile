@@ -41,6 +41,9 @@ gem 'stamp'
 # Adding some awesome fonts
 gem "font-awesome-rails"
 
+#beautiful print
+gem 'awesome_print'
+
 group :development, :test do
 	#Simma DOWN NAH!
 	gem 'quiet_assets'
